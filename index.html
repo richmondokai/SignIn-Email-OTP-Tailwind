@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Orderific Service Panel - Manage restaurant operations efficiently with BMS.">
-    <title>Orderific Service Panel</title>
+    <title>Orderific SignIn</title>
+    <!-- Add DM Sans Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Apply DM Sans as the default font -->
+    <style>
+        body {
+            font-family: 'DM Sans', sans-serif;
+        }
+    </style>
     <script>
         function togglePassword() {
             const passwordInput = document.getElementById('password');
@@ -21,13 +28,13 @@
     <!-- Container for Landscape Layout -->
     <div class="hidden lg:flex w-95 h-95">
         <!-- Logo -->
-        <div class="w-[350px] h-[602px] relative rounded-3xl overflow-hidden bg-[#ff8945] flex items-end text-white" style="background-image: url('https://s3-alpha-sig.figma.com/img/97c5/77dd/b047dd3c09ed673e80bc7a6d07bed063?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XT~sbdk~zOmkWF8LUamkfymr3JF8AbwlClTX9z~FY0UaJWyFdFLLhXmn65EyK29Z0X~mp7bU46n-PJOi-SjCK~ygjEW816U-Eje4Y-UfoTmeC7sw~YTG8QUcKYBRYjiJ5f3xZ-R3eLIQev1BcDAK7tdblPH0FQHHw2FULE9bdrLOrQTqMybOfj13sMpheswOz2TbCwxPMBr3VIncFn4mTywYhCbznPKfE8Z6LSlWAC-DIHw7efwGNfqviWlLMB2Jk6lNoH8MIkKGyPFLeSHtU8ZpfOEk4oGxo4bYzCfBrFtneCrv-V5kWc78GuWy-tBOUCZ6zMzLWCKyseY5EAvUVw__'); background-size: cover; background-position: center;">
+        <div class="w-[540px] h-[602px] relative rounded-3xl overflow-hidden bg-[#ff8945] flex items-end text-white" style="background-image: url('https://s3-alpha-sig.figma.com/img/97c5/77dd/b047dd3c09ed673e80bc7a6d07bed063?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XT~sbdk~zOmkWF8LUamkfymr3JF8AbwlClTX9z~FY0UaJWyFdFLLhXmn65EyK29Z0X~mp7bU46n-PJOi-SjCK~ygjEW816U-Eje4Y-UfoTmeC7sw~YTG8QUcKYBRYjiJ5f3xZ-R3eLIQev1BcDAK7tdblPH0FQHHw2FULE9bdrLOrQTqMybOfj13sMpheswOz2TbCwxPMBr3VIncFn4mTywYhCbznPKfE8Z6LSlWAC-DIHw7efwGNfqviWlLMB2Jk6lNoH8MIkKGyPFLeSHtU8ZpfOEk4oGxo4bYzCfBrFtneCrv-V5kWc78GuWy-tBOUCZ6zMzLWCKyseY5EAvUVw__'); background-size: cover; background-position: center;">
             <!-- Overlays -->
             <div class="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
             <div class="absolute inset-0 bg-[#ff5e00] bg-opacity-60 z-20"></div>
     
             <!-- Logo -->
-            <div class="absolute top-5 left-1/2 transform -translate-x-1/2 z-30 flex items-center">
+            <div class="absolute top-5 left-1/4 transform -translate-x-1/2 z-30 flex items-center">
                 <img src="Logo.png" alt="Orderific Logo" class="w-32 h-10" loading="lazy">
             </div>
     
@@ -41,7 +48,7 @@
         </div>
     
         <!-- Right Section -->
-        <div class="w-1/2 flex flex-col justify-center items-center p-10">
+        <div class="w-full flex flex-col justify-center items-center p-10">
             <form class="w-full max-w-xs">
                 <h2 class="text-2xl font-bold text-center mb-2">Welcome Back</h2>
                 <p class="text-xs text-center mb-6">Manage, streamline, and thrive effortlessly.</p>
